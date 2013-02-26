@@ -1,0 +1,1 @@
+#import "Foundation/Foundation.h"@interface Event : NSObject@property int clicks;@property NSString * eventDescription;@property NSString * eventName;@property NSDate * eventDate;@property NSString * organization;@property NSString * creator;@property NSString * link;@property NSString * eventImageName;@end

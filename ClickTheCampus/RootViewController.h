@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MPFoldEnumerations.h"
+#import "MPFlipEnumerations.h"
 
+enum {
+	MPTransitionModeFold,
+	MPTransitionModeFlip
+} typedef MPTransitionMode;
 @interface RootViewController : UIViewController <UIPageViewControllerDelegate>
 
 @property (strong, nonatomic) UIPageViewController *pageViewController;

@@ -7,10 +7,10 @@
 //
 
 #import "RootViewController.h"
-
 #import "ModelController.h"
-
 #import "DataViewController.h"
+#import <QuartzCore/QuartzCore.h>
+#import "EventTestDrive.h"
 
 @interface RootViewController ()
 @property (readonly, strong, nonatomic) ModelController *modelController;
@@ -20,11 +20,14 @@
 
 @synthesize modelController = _modelController;
 
+NSArray *events;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     // Configure the page view controller and add it as a child view controller.
+    events = [EventTestDrive getAllEvents];
     self.pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStylePageCurl navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
     self.pageViewController.delegate = self;
 

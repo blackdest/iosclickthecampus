@@ -1,13 +1,12 @@
 //
 //  AppDelegate.m
-//  ClickTheCampus
+//  TestDrive
 //
-//  Created by Ateneo Fine Arts on 2/19/13.
-//  Copyright (c) 2013 Ateneo Fine Arts. All rights reserved.
+//  Created by Fine Arts Program on 2/12/13.
+//  Copyright (c) 2013 Fine Arts Program. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#define IPHONE_STORYBOARD_NAME	@"MainStoryboard_iPhone";
 
 @implementation AppDelegate
 
@@ -16,7 +15,7 @@
     // Override point for customization after application launch.
     return YES;
 }
-
+							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -42,14 +41,6 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
-
-+ (NSString *)storyboardName
-{
-//	if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-//	    return IPHONE_STORYBOARD_NAME;
-//	}
-    return IPHONE_STORYBOARD_NAME;
 }
 
 @end
