@@ -1,1 +1,1 @@
-#import "Event.h"@implementation Event@synthesize clicks;@synthesize eventDescription;@synthesize eventName;@synthesize eventDate;@synthesize organization;@synthesize creator;@synthesize link;@synthesize eventImageName;@end
+#import "Event.h"@implementation Event@synthesize clicks;@synthesize eventDescription;@synthesize eventName;@synthesize eventDate;@synthesize organization;@synthesize link;@synthesize eventImageName;@end

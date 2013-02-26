@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		103AC02E16DC5A4A00EF4C91 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 103AC02B16DC5A4A00EF4C91 /* Event.m */; };
+		103AC02F16DC5A4A00EF4C91 /* EventTestDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = 103AC02D16DC5A4A00EF4C91 /* EventTestDrive.m */; };
+		103AC03616DC61FA00EF4C91 /* TestEventViewPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 103AC03516DC61FA00EF4C91 /* TestEventViewPageController.m */; };
 		B94614AD16D37DC800D9F1ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94614AC16D37DC800D9F1ED /* UIKit.framework */; };
 		B94614AF16D37DC800D9F1ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94614AE16D37DC800D9F1ED /* Foundation.framework */; };
 		B94614B116D37DC800D9F1ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94614B016D37DC800D9F1ED /* CoreGraphics.framework */; };
@@ -20,9 +23,16 @@
 		B94614C916D37DC800D9F1ED /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B94614C816D37DC800D9F1ED /* DataViewController.m */; };
 		B94614CC16D37DC800D9F1ED /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = B94614CB16D37DC800D9F1ED /* ModelController.m */; };
 		B94614CF16D37DC800D9F1ED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94614CD16D37DC800D9F1ED /* MainStoryboard.storyboard */; };
+		B94614D616D37DDB00D9F1ED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94614D516D37DDB00D9F1ED /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		103AC02A16DC5A4A00EF4C91 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = ../Event.h; sourceTree = "<group>"; };
+		103AC02B16DC5A4A00EF4C91 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = ../Event.m; sourceTree = "<group>"; };
+		103AC02C16DC5A4A00EF4C91 /* EventTestDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventTestDrive.h; path = ../EventTestDrive.h; sourceTree = "<group>"; };
+		103AC02D16DC5A4A00EF4C91 /* EventTestDrive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventTestDrive.m; path = ../EventTestDrive.m; sourceTree = "<group>"; };
+		103AC03416DC61FA00EF4C91 /* TestEventViewPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestEventViewPageController.h; sourceTree = "<group>"; };
+		103AC03516DC61FA00EF4C91 /* TestEventViewPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestEventViewPageController.m; sourceTree = "<group>"; };
 		B94614A816D37DC800D9F1ED /* ClickTheCampus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickTheCampus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94614AC16D37DC800D9F1ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B94614AE16D37DC800D9F1ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -43,6 +53,28 @@
 		B94614CA16D37DC800D9F1ED /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
 		B94614CB16D37DC800D9F1ED /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 		B94614CE16D37DC800D9F1ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B94614D516D37DDB00D9F1ED /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B94614D816D37E3B00D9F1ED /* MPAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPAnimation.h; sourceTree = "<group>"; };
+		B94614D916D37E3B00D9F1ED /* MPAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPAnimation.m; sourceTree = "<group>"; };
+		B94614DA16D37E3B00D9F1ED /* MPFlipEnumerations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPFlipEnumerations.h; sourceTree = "<group>"; };
+		B94614DB16D37E3B00D9F1ED /* MPFlipTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPFlipTransition.h; sourceTree = "<group>"; };
+		B94614DC16D37E3B00D9F1ED /* MPFlipTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPFlipTransition.m; sourceTree = "<group>"; };
+		B94614DD16D37E3B00D9F1ED /* MPFoldEnumerations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPFoldEnumerations.h; sourceTree = "<group>"; };
+		B94614DE16D37E3B00D9F1ED /* MPFoldTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPFoldTransition.h; sourceTree = "<group>"; };
+		B94614DF16D37E3B00D9F1ED /* MPFoldTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPFoldTransition.m; sourceTree = "<group>"; };
+		B94614E016D37E3B00D9F1ED /* MPTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPTransition.h; sourceTree = "<group>"; };
+		B94614E116D37E3B00D9F1ED /* MPTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPTransition.m; sourceTree = "<group>"; };
+		B94614E216D37E3B00D9F1ED /* MPTransitionEnumerations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPTransitionEnumerations.h; sourceTree = "<group>"; };
+		B94614E416D37E3B00D9F1ED /* MPFlipSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPFlipSegue.h; sourceTree = "<group>"; };
+		B94614E516D37E3B00D9F1ED /* MPFlipSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPFlipSegue.m; sourceTree = "<group>"; };
+		B94614E616D37E3B00D9F1ED /* MPFoldModalSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPFoldModalSegue.h; sourceTree = "<group>"; };
+		B94614E716D37E3B00D9F1ED /* MPFoldModalSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPFoldModalSegue.m; sourceTree = "<group>"; };
+		B94614E816D37E3B00D9F1ED /* MPFoldNavPopSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPFoldNavPopSegue.h; sourceTree = "<group>"; };
+		B94614E916D37E3B00D9F1ED /* MPFoldNavPopSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPFoldNavPopSegue.m; sourceTree = "<group>"; };
+		B94614EA16D37E3B00D9F1ED /* MPFoldNavPushSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPFoldNavPushSegue.h; sourceTree = "<group>"; };
+		B94614EB16D37E3B00D9F1ED /* MPFoldNavPushSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPFoldNavPushSegue.m; sourceTree = "<group>"; };
+		B94614EC16D37E3B00D9F1ED /* MPFoldSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPFoldSegue.h; sourceTree = "<group>"; };
+		B94614ED16D37E3B00D9F1ED /* MPFoldSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPFoldSegue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B94614D616D37DDB00D9F1ED /* QuartzCore.framework in Frameworks */,
 				B94614AD16D37DC800D9F1ED /* UIKit.framework in Frameworks */,
 				B94614AF16D37DC800D9F1ED /* Foundation.framework in Frameworks */,
 				B94614B116D37DC800D9F1ED /* CoreGraphics.framework in Frameworks */,
@@ -63,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				B94614B216D37DC800D9F1ED /* ClickTheCampus */,
+				B94614D716D37E3B00D9F1ED /* MPFoldTransition */,
 				B94614AB16D37DC800D9F1ED /* Frameworks */,
 				B94614A916D37DC800D9F1ED /* Products */,
 			);
@@ -79,6 +113,7 @@
 		B94614AB16D37DC800D9F1ED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B94614D516D37DDB00D9F1ED /* QuartzCore.framework */,
 				B94614AC16D37DC800D9F1ED /* UIKit.framework */,
 				B94614AE16D37DC800D9F1ED /* Foundation.framework */,
 				B94614B016D37DC800D9F1ED /* CoreGraphics.framework */,
@@ -98,6 +133,8 @@
 				B94614CA16D37DC800D9F1ED /* ModelController.h */,
 				B94614CB16D37DC800D9F1ED /* ModelController.m */,
 				B94614CD16D37DC800D9F1ED /* MainStoryboard.storyboard */,
+				103AC03416DC61FA00EF4C91 /* TestEventViewPageController.h */,
+				103AC03516DC61FA00EF4C91 /* TestEventViewPageController.m */,
 				B94614B316D37DC800D9F1ED /* Supporting Files */,
 			);
 			path = ClickTheCampus;
@@ -106,6 +143,10 @@
 		B94614B316D37DC800D9F1ED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				103AC02A16DC5A4A00EF4C91 /* Event.h */,
+				103AC02B16DC5A4A00EF4C91 /* Event.m */,
+				103AC02C16DC5A4A00EF4C91 /* EventTestDrive.h */,
+				103AC02D16DC5A4A00EF4C91 /* EventTestDrive.m */,
 				B94614B416D37DC800D9F1ED /* ClickTheCampus-Info.plist */,
 				B94614B516D37DC800D9F1ED /* InfoPlist.strings */,
 				B94614B816D37DC800D9F1ED /* main.m */,
@@ -115,6 +156,43 @@
 				B94614C216D37DC800D9F1ED /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B94614D716D37E3B00D9F1ED /* MPFoldTransition */ = {
+			isa = PBXGroup;
+			children = (
+				B94614D816D37E3B00D9F1ED /* MPAnimation.h */,
+				B94614D916D37E3B00D9F1ED /* MPAnimation.m */,
+				B94614DA16D37E3B00D9F1ED /* MPFlipEnumerations.h */,
+				B94614DB16D37E3B00D9F1ED /* MPFlipTransition.h */,
+				B94614DC16D37E3B00D9F1ED /* MPFlipTransition.m */,
+				B94614DD16D37E3B00D9F1ED /* MPFoldEnumerations.h */,
+				B94614DE16D37E3B00D9F1ED /* MPFoldTransition.h */,
+				B94614DF16D37E3B00D9F1ED /* MPFoldTransition.m */,
+				B94614E016D37E3B00D9F1ED /* MPTransition.h */,
+				B94614E116D37E3B00D9F1ED /* MPTransition.m */,
+				B94614E216D37E3B00D9F1ED /* MPTransitionEnumerations.h */,
+				B94614E316D37E3B00D9F1ED /* Segues */,
+			);
+			name = MPFoldTransition;
+			path = "/Volumes/EVA/MPFoldTransition-master/MPFoldTransition/MPFoldTransition";
+			sourceTree = "<absolute>";
+		};
+		B94614E316D37E3B00D9F1ED /* Segues */ = {
+			isa = PBXGroup;
+			children = (
+				B94614E416D37E3B00D9F1ED /* MPFlipSegue.h */,
+				B94614E516D37E3B00D9F1ED /* MPFlipSegue.m */,
+				B94614E616D37E3B00D9F1ED /* MPFoldModalSegue.h */,
+				B94614E716D37E3B00D9F1ED /* MPFoldModalSegue.m */,
+				B94614E816D37E3B00D9F1ED /* MPFoldNavPopSegue.h */,
+				B94614E916D37E3B00D9F1ED /* MPFoldNavPopSegue.m */,
+				B94614EA16D37E3B00D9F1ED /* MPFoldNavPushSegue.h */,
+				B94614EB16D37E3B00D9F1ED /* MPFoldNavPushSegue.m */,
+				B94614EC16D37E3B00D9F1ED /* MPFoldSegue.h */,
+				B94614ED16D37E3B00D9F1ED /* MPFoldSegue.m */,
+			);
+			path = Segues;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +266,9 @@
 				B94614C616D37DC800D9F1ED /* RootViewController.m in Sources */,
 				B94614C916D37DC800D9F1ED /* DataViewController.m in Sources */,
 				B94614CC16D37DC800D9F1ED /* ModelController.m in Sources */,
+				103AC02E16DC5A4A00EF4C91 /* Event.m in Sources */,
+				103AC02F16DC5A4A00EF4C91 /* EventTestDrive.m in Sources */,
+				103AC03616DC61FA00EF4C91 /* TestEventViewPageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +385,7 @@
 				B94614D416D37DC800D9F1ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

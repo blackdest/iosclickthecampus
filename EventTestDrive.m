@@ -34,14 +34,14 @@ NSString * const BASE_URL = @"http://clickthecampus.herokuapp.com";
             NSDictionary *item = [studentArray objectAtIndex:i];
             
             Event *ev = [Event alloc];
-            [ev setEventName:[item objectForKey:@"name"]];
-            [ev setEventDescription:[item objectForKey:@"description"]];
-            [ev setEventImageName:[item objectForKey:@"image"]];
-            [ev setClicks:0];
-            [ev setCreator:[item objectForKey:@"creator"]];
-            [ev setEventDate:[item objectForKey:@"date"]];
-            [ev setIsAccessibilityElement:false];
-            [ev setLink:[item objectForKey:@"externalLink"]];
+            [ev setEventName:[item objectForKey:@"name"]];//works
+            [ev setEventDescription:[item objectForKey:@"description"]];//works
+            [ev setEventImageName:[item objectForKey:@"picture_file_name"]];//ask sir drei for this
+            NSNumber* trial = [item objectForKey:@"clicks"];//works
+            [ev setClicks:[trial intValue]];
+            [ev setEventDate:[item objectForKey:@"date"]];//works. format format din
+            [ev setOrganization:[item objectForKey:@"source"]];//works
+            [ev setLink:[item objectForKey:@"external_link"]];//works
             
             [studentArray setObject:ev atIndexedSubscript:i];
         }
@@ -50,7 +50,7 @@ NSString * const BASE_URL = @"http://clickthecampus.herokuapp.com";
     return studentArray;
 }
 
-- (NSArray *) getEventFor:(NSString *) month: (NSString *) year {
+- (NSArray *) getEventFor:(NSString *) month: (NSString *) year {//wag muna to until allevents is ok
     NSString * schedUrl = [NSString stringWithFormat:@"/events/%d.json", self.eventId ];
     NSURL * schedQuery = [NSURL URLWithString:schedUrl relativeToURL:[NSURL URLWithString:BASE_URL]];
     
@@ -72,7 +72,6 @@ NSString * const BASE_URL = @"http://clickthecampus.herokuapp.com";
             [ev setEventDescription:[item objectForKey:@"description"]];
             [ev setEventImageName:[item objectForKey:@"image"]];
             [ev setClicks:10];//random value lang to kasi di ko alam pano ko makukuha yung clicks
-            [ev setCreator:[item objectForKey:@"creator"]];
             [ev setEventDate:[item objectForKey:@"date"]];
             [ev setIsAccessibilityElement:false];
             [ev setLink:[item objectForKey:@"externalLink"]];        }

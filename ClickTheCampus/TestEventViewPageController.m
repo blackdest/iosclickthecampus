@@ -33,11 +33,11 @@ NSArray* events;
     events = [EventTestDrive getAllEvents];
     Event *e = [events objectAtIndex:1];
     self.testname.text = e.eventName;
-    self.testname2.text = e.eventDescription;
-    //NSDateFormatter *f = [[NSDateFormatter alloc] init];
-    //[f setDateFormat:@"mm-dd-yyyy hh:mm:ss"];
-    //self.testname3.text = [f stringFromDate:e.eventDate];
+    self.testname2.text = e.organization;
     self.testname3.text = e.eventDate;
+    /*self.img = [[UIImageView alloc] init];
+    UIImage *imgreal = [UIImage imageNamed:e.eventImageName];
+    [self.img setImage:imgreal];*/
 }
 
 - (void)didReceiveMemoryWarning
